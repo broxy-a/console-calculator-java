@@ -1,6 +1,6 @@
 Handling invalid operations
 
-Case-safe operation support (Y, YES)
+
 
 Retry input on error instead of continue
 

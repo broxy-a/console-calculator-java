@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-    record Operands(double num1, double num2) {
-}
+record Operands(double num1, double num2) {}
 
 public class Calculator {
     private static Operands enteringNumbers(Scanner sc) {
@@ -10,6 +9,7 @@ public class Calculator {
         System.out.print("Enter first number: ");
         while (!sc.hasNextDouble()) {
             System.out.println("Sorry you entered an invalid number. Try again");
+            System.out.print("Enter first number: ");
             sc.next();
         }
         num1 = sc.nextDouble();
@@ -17,6 +17,7 @@ public class Calculator {
         System.out.print("Enter second number: ");
         while (!sc.hasNextDouble()) {
             System.out.println("Sorry you entered an invalid number. Try again");
+            System.out.print("Enter second number: ");
             sc.next();
         }
         num2 = sc.nextDouble();
@@ -49,18 +50,23 @@ public class Calculator {
        do {
            Operands number = enteringNumbers(sc);
 
-           System.out.print("Choose operation: +, -, *, /: ");
+           System.out.print("Choose operation: +, -, *, /, %: ");
            char c = sc.next().charAt(0);
 
-           if (c == '/' && number.num2() == 0) {
-               System.out.println("No valid result");
-               continue;
+           double result = 0;
+           try {
+               if (c == '/' && number.num2() == 0) {
+                   throw new ArithmeticException("divide by zero is impossible");
+               }
+               result = calculations(number, c);
+           } catch (ArithmeticException e) {
+               System.out.println("Error: " + e.getMessage());
            }
-           double result = calculations(number, c);
+
            System.out.printf("Result: %.2f\n", result);
            
            System.out.println("Continue working? (yes/no)");
-           answer = sc.next();
+           answer = sc.next().toLowerCase();
        } while (answer.equals("yes") || answer.equals("y"));
 
         sc.close();
