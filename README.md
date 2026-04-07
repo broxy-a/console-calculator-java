@@ -36,6 +36,7 @@ The calculator supports the following operations:
   instead of an array, improving code clarity and readability.
 ### v1.1.1
 - Fixed division by zero handling: validation now occurs before calculation
-
+### v1.1.2
+- Added validation for invalid operator input
 ---
 *Created as a learning project.*
