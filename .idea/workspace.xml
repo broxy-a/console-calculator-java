@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a600a9-47bd-434c-b815-5e841ca355da" name="Changes" comment="text editing">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaFX/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaFX/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaFX/calculator.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/calculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Future updates" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaFX/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaFX/CalculatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaFX/calculator.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaFX/calculator.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +78,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#4 on feature&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/Java projects/calculator/src/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
