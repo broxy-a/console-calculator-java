@@ -1,3 +1,5 @@
+package calculator;
+
 import java.util.Scanner;
 
 record Operands(double num1, double num2) {}

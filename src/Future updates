@@ -1,8 +1,0 @@
-Handling invalid operations
-
-
-
-Retry input on error instead of continue
-
-Move logic to a separate class
-
